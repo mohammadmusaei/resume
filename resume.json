@@ -1,0 +1,149 @@
+{
+  "basics": {
+    "name": "Mohammad Musaei",
+    "label": "Senior Front-End Developer",
+    "picture": "me.jpg",
+    "email": "mohammad.musaei@gmail.com",
+    "phone": "+98 (938) 087-8239",
+    "website": "musaei.me",
+    "summary": "Experienced web developer with 8 years of working in web development projects. Highly skilled in new web technologies like Angular (all versions) and create complex user interfaces, components, and libraries. Also experienced in React and .NET framework languages like C# and VB.NET for developing backend requirements. ",
+    "location": {
+      "city": "Tehran",
+      "countryCode": "Iran",
+      "region": "Tehran"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "mohammadmusaei",
+        "url": "https://github.com/mohammadmusaei"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mohammadmusaei",
+        "url": "https://www.linkedin.com/in/mohammadmusaei/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": " NOMATEC",
+      "position": "ERP FRONT-END TEAM LEAD",
+      "website": "https://nomatec.net",
+      "startDate": "2015-04-01",
+      "summary": "An ERP solution contains several subsystems like supply chain, CRM, HRM, PM, and Finance",
+      "highlights": [
+        "Lead Frontend teams in more than 9 separate modules ",
+        "Design and develop ERP frontend infrastructure as a core framework for sub modules ",
+        "Develop core angular components and directives for all subsystem "
+      ]
+    },
+	{
+      "company": "JONOUB IT CO",
+      "position": "FRONT-END TEAM LEAD/ FULL STACK DEVELOPER",
+      "website": "",
+      "startDate": "2011-01-01",
+      "endDate": "2014-04-01",
+      "summary": "Jonoub IT is a software company providing software solutions for small businesses",
+      "highlights": [
+        "Frontend team lead",
+        "C# Windows application developer "
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "IAU OF BANDAR-E ABBAS ",
+      "area": "COMPUTER SOFTWARE",
+      "studyType": "BACHELOR'S DEGREES",
+      "startDate": "2007-09-01",
+      "endDate": "2010-04-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+		"SASS",
+		"LESS",
+        "Javascript",
+		"Angular",
+		"React",
+		"Webpack",
+		"NodeJs",
+		"User Interface Design",
+		"Docker",
+		"Model-View-Controller",
+		"ASP.NET MVC",
+		"Karma",
+		"Jasmin",
+		"Bootstrap",
+		"Foundation",
+		"Materialize",
+		"Primer",
+		"Semantic"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Master",
+      "keywords": [
+        "C#",
+        "VB.NET",
+        "Python",
+		"EF",
+		"NHibernate",
+		"SQL Server",
+		"MySql",
+		"FireBase",
+		"SqlLite"
+      ]
+    },
+    {
+      "name": "Source Control",
+      "level": "Master",
+      "keywords": [
+        "Git",
+        "TFS",
+		"GitLab"
+      ]
+    },
+    {
+      "name": "Graphic",
+      "level": "Master",
+      "keywords": [
+        "Photoshop",
+        "Illustrator",
+		"UX Design"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+	{
+      "language": "German",
+      "fluency": "Elementary proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": [
+        "Hiking",
+        "Martial Arts"
+      ]
+    },
+	{
+      "name": "Wild Life",
+      "keywords": [
+        "Animal Care"
+      ]
+    }
+  ]
+}
