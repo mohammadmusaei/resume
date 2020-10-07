@@ -1,484 +1,510 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	
-	<title>Mohammad Musaei</title>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
-	<style type="text/css">
-	@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-	background: #fff;
-	font-family: Lato, sans-serif;
-	margin: 0 0 80px;
-}
-a {
-	color: #2ecc71;
-}
-a:focus,
-a:hover {
-	color: #f1c40f;
-	text-decoration: none;
-}
-p {
-	line-height: 1.5;
-	margin: 0;
-}
-p + p {
-	margin-top: 10px;
-}
-h1,
-h2,
-h3,
-h4 {
-	margin-top: 0
-}
-section {
-	margin-top: 30px;
-}
-li {
-	line-height: 1.8;
-	list-style: none;
-}
-li:before {
-	content: "\f052";
-	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
-	margin-left: -20px;
-	opacity: .1;
-	position: absolute;
-}
-blockquote {
-	border-left: 5px solid #e7e9ec;
-	font-size: 14px;
-}
-em {
-	color: #95a5a6;
-	font-weight: normal;
-	font-style: normal;
-}
-h4 span:first-child {
-	color: #000;
-	font-weight: bold;
-}
-.container {
-	max-width: 750px;
-	padding: 0 30px;
-}
-.col-sm-6 {
-	margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-	margin-top: 12px; 
-}
-.col-sm-12 + .col-sm-12 {
-	margin-top: 30px;
-}
-#header {
-	background: #f4f6f6;
-	padding: 50px 0;
-	margin-bottom: 30px;
-}
-#header h2 {
-	color: #95a5a6;
-	font-size: 24px;
-}
-#content h3 {
-	color: #f1c40f;
-	font-size: 26px;
-	margin-top: -4px;
-}
-#content aside {
-	text-align: right;
-	padding-right: 30px;
-}
-#profiles .network {
-	text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-	font-weight: bold;
-	margin-bottom: 8px;
-}
-#education .area {
-	font-weight: bold;
-}
-#education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
-	margin-right: 6px;
-}
-#education .studyType {
-	margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-	margin-top: 8px;
-}
-#publications .website a:before {
-	content: attr(href);
-}
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimal-ui"
+    />
 
-@media (min-width: 480px) {
-	.strike-through {
-		border-top: 1px solid #f4f6f6;
-		height: 20px;
-		margin-top: 12px;
-		margin-bottom: -2px;
-		position: relative;
-	}
-	.strike-through span,
-	.strike-through a {
-		background: #fff;
-		position: absolute;
-	}
-	.strike-through span:first-child {
-		padding-right: 20px;
-		margin-top: -12px;
-	}
-	.strike-through span + span {
-		font-size: 14px;
-		margin-top: -10px;
-		padding-left: 20px;
-		right: 0;
-	}
-}
-@media (max-width: 768px) {
-	.col-sm-6:last-child {
-		margin-bottom: 0px;
-	}
-	#content aside {
-		margin-bottom: 20px;
-		padding-right: 0;
-		text-align: left;
-	}
-	#publications .website a:before {
-		content: "View publication";
-	}
-}
-@media (max-width: 480px) {
-	h1 {
-		font-size: 26px;
-	}
-	.date {
-		font-size: 14px;
-		margin-bottom: 5px;
-	}
-	.strike-through span:first-child {
-		margin-bottom: 7px;
-	}
-	.strike-through span {
-		display: block;
-	}	
-	#header {
-		margin-bottom: 10px;
-		padding: 40px 0;
-	}
-	#actions {
-		display: none;
-	}
-}
+    <title>Mohammad Musaei</title>
 
-	</style>
-	
-	</head>
-	<body>
-	
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9 col-sm-push-3">
-					<h1>
-						Mohammad Musaei
-					</h1>
-					<h2>
-						Senior Front-End Developer
-					</h2>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="content" class="container">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"
+    />
 
-	<section id="contact" class="row">
-		<aside class="col-sm-3">
-			<h3>Contact</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<strong>Email</strong>
-				<div class="email">mohammad.musaei@gmail.com</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Phone</strong>
-				<div class="phone">+98 (938) 087-8239</div>
-			</div>
-			<div class="col-sm-6">
-				<strong>Website</strong>
-				<div class="website">
-					<a href="musaei.me">musaei.me</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="row">
-		<aside class="col-sm-3">
-			<h3>About</h3>
-		</aside>
-		<div class="col-sm-9">
-			<p>Experienced web developer with 8 years of working in web development projects. Highly skilled in new web technologies like Angular (all versions) and create complex user interfaces, components, and libraries. Also experienced in React and .NET framework languages like C# and VB.NET for developing backend requirements. </p>
-		</div>
-	</section>
-	<section id="profiles" class="row">
-		<aside class="col-sm-3">
-			<h3>Profiles</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
-					<strong class="network">
-						GitHub
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://github.com/mohammadmusaei">mohammadmusaei</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<strong class="network">
-						LinkedIn
-					</strong>
-					<div class="username">
-						<div class="url">
-							<a href="https://www.linkedin.com/in/mohammadmusaei/">mohammadmusaei</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+      body {
+        background: #fff;
+        font-family: Lato, sans-serif;
+        margin: 0 0 80px;
+      }
+      a {
+        color: #2ecc71;
+      }
+      a:focus,
+      a:hover {
+        color: #f1c40f;
+        text-decoration: none;
+      }
+      p {
+        line-height: 1.5;
+        margin: 0;
+      }
+      p + p {
+        margin-top: 10px;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin-top: 0;
+      }
+      section {
+        margin-top: 30px;
+      }
+      li {
+        line-height: 1.8;
+        list-style: none;
+      }
+      li:before {
+        content: "\f052";
+        float: left;
+        font: 13px Octicons;
+        margin-top: 6px;
+        margin-left: -20px;
+        opacity: 0.1;
+        position: absolute;
+      }
+      blockquote {
+        border-left: 5px solid #e7e9ec;
+        font-size: 14px;
+      }
+      em {
+        color: #95a5a6;
+        font-weight: normal;
+        font-style: normal;
+      }
+      h4 span:first-child {
+        color: #3F51B5;
+        font-weight: bold;
+      }
+      .container {
+        max-width: 750px;
+        padding: 0 30px;
+      }
+      .col-sm-6 {
+        margin-bottom: 10px;
+      }
+      .col-sm-12 h4 {
+        margin-top: 12px;
+      }
+      .col-sm-12 + .col-sm-12 {
+        margin-top: 30px;
+      }
+      #header {
+        background: #f4f6f6;
+        padding: 50px 0;
+        margin-bottom: 30px;
+      }
+      #header h2 {
+        color: #95a5a6;
+        font-size: 24px;
+      }
+      #content h3 {
+        color: #FF9800;
+        font-size: 26px;
+        margin-top: -4px;
+		font-weight: 700;
+      }
+      #content aside {
+        text-align: right;
+        padding-right: 30px;
+      }
+      #profiles .network {
+        text-transform: capitalize;
+      }
+      #work .position,
+      #volunteer .position {
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      #education .area {
+        font-weight: bold;
+      }
+      #education .area:before {
+        content: "\f0d7";
+        font: 16px Octicons;
+        margin-right: 6px;
+      }
+      #education .studyType {
+        margin-left: 25px;
+      }
+      #awards .summary,
+      #publications .summary {
+        margin-top: 8px;
+      }
+      #publications .website a:before {
+        content: attr(href);
+      }
+      .me {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -10px;
+        margin-left: 30%;
+      }
+      @media (min-width: 480px) {
+        .strike-through {
+          border-top: 1px solid #f4f6f6;
+          height: 20px;
+          margin-top: 12px;
+          margin-bottom: -2px;
+          position: relative;
+        }
+        .strike-through span,
+        .strike-through a {
+          background: #fff;
+          position: absolute;
+        }
+        .strike-through span:first-child {
+          padding-right: 20px;
+          margin-top: -12px;
+        }
+        .strike-through span + span {
+          font-size: 14px;
+          margin-top: -10px;
+          padding-left: 20px;
+          right: 0;
+        }
+      }
+      @media (max-width: 768px) {
+        .col-sm-6:last-child {
+          margin-bottom: 0px;
+        }
+        #content aside {
+          margin-bottom: 20px;
+          padding-right: 0;
+          text-align: left;
+        }
+        #publications .website a:before {
+          content: "View publication";
+        }
+      }
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 26px;
+        }
+        .date {
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+        .strike-through span:first-child {
+          margin-bottom: 7px;
+        }
+        .strike-through span {
+          display: block;
+        }
+        #header {
+          margin-bottom: 10px;
+          padding: 40px 0;
+        }
+        #actions {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img class="me" src="./me.jpeg" />
+          </div>
+          <div class="col-sm-9">
+            <h1>Mohammad Musaei</h1>
+            <h2>Senior Front-End Developer</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="content" class="container">
+      <section id="contact" class="row">
+        <aside class="col-sm-3">
+          <h3>Contact</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <strong>Email</strong>
+              <div class="email">mohammad.musaei@gmail.com</div>
+            </div>
+            <div class="col-sm-6">
+              <strong>Phone</strong>
+              <div class="phone">+98 (938) 087-8239</div>
+            </div>
+            <!-- <div class="col-sm-6">
+              <strong>Website</strong>
+              <div class="website">
+                <a href="musaei.me">musaei.me</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <section id="about" class="row">
+        <aside class="col-sm-3">
+          <h3>About</h3>
+        </aside>
+        <div class="col-sm-9">
+          <p>
+            Experienced web developer with 8 years of working in web development
+            projects. Highly skilled in new web technologies like Angular (all
+            versions) and create complex user interfaces, components, and
+            libraries. Also experienced in React and .NET framework languages
+            like C# and VB.NET for developing backend requirements.
+          </p>
+        </div>
+      </section>
+      <section id="profiles" class="row">
+        <aside class="col-sm-3">
+          <h3>Profiles</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <strong class="network"> GitHub </strong>
+              <div class="username">
+                <div class="url">
+                  <a href="https://github.com/mohammadmusaei">mohammadmusaei</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <strong class="network"> LinkedIn </strong>
+              <div class="username">
+                <div class="url">
+                  <a href="https://www.linkedin.com/in/mohammadmusaei/"
+                    >mohammadmusaei</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-	<section id="work" class="row">
-		<aside class="col-sm-3">
-			<h3>Work</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span> NOMATEC</span>
-					<span class="date">
-						2015-04-01 — PRESENT
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href="https://nomatec.net">https://nomatec.net</a>
-				</div>
-				<div class="position">
-					ERP FRONT-END TEAM LEAD
-				</div>
-				<div class="summary">
-					<p>An ERP solution contains several subsystems like supply chain, CRM, HRM, PM, and Finance</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Lead Frontend teams in more than 9 separate modules </li>
-					<li class="bullet">Design and develop ERP frontend infrastructure as a core framework for sub modules </li>
-					<li class="bullet">Develop core angular components and directives for all subsystem </li>
-				</ul>
-			</div>
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>JONOUB IT CO</span>
-					<span class="date">
-						2011-01-01 — 2014-04-01
-					</span>
-				</h4>
-				<div class="website pull-right">
-					<a href=""></a>
-				</div>
-				<div class="position">
-					FRONT-END TEAM LEAD/ FULL STACK DEVELOPER
-				</div>
-				<div class="summary">
-					<p>Jonoub IT is a software company providing software solutions for small businesses</p>
-				</div>
-				<h4>Highlights</h4>
-				<ul class="highlights">
-					<li class="bullet">Frontend team lead</li>
-					<li class="bullet">C# Windows application developer </li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
+      <section id="work" class="row">
+        <aside class="col-sm-3">
+          <h3>Work</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span> RUN SENSIBLE</span>
+                <span class="date"> JAN 2019 – FEB 2020 </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="https://runsensible.com/">https://runsensible.com/</a>
+              </div>
+              <div class="position">FRONT-END TEAM LEAD</div>
+              <h4>Highlights</h4>
+              <ul class="highlights">
+                <li class="bullet">Lead front-end teams.</li>
+                <li class="bullet">
+                  Design and develop required modules and components for CRM.
+                </li>
+                <li class="bullet">
+                  Work as a front-end technical interviewer in the company’s
+                  recruitment and hiring processes
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span> NOMATEC</span>
+                <span class="date"> APR 2015 – FEB 2020 </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="https://nomatec.net">https://nomatec.net</a>
+              </div>
+              <div class="position">ERP FRONT-END TEAM LEAD</div>
+              <div class="summary">
+                <p>
+                  An ERP solution contains several subsystems like supply chain,
+                  CRM, HRM, PM, and Finance
+                </p>
+              </div>
+              <h4>Highlights</h4>
+              <ul class="highlights">
+                <li class="bullet">
+                  Lead Frontend teams in more than 9 separate modules
+                </li>
+                <li class="bullet">
+                  Design and develop ERP frontend infrastructure as a core
+                  framework for sub modules
+                </li>
+                <li class="bullet">
+                  Develop core angular components and directives for all
+                  subsystem
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>JONOUB IT CO</span>
+                <span class="date"> JAN 2011 – APR 2014 </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="http://www.jonoub.ir/">http://www.jonoub.ir/</a>
+              </div>
+              <div class="position">
+                FRONT-END TEAM LEAD/ FULL STACK DEVELOPER
+              </div>
+              <div class="summary">
+                <p>
+                  Jonoub IT is a software company providing software solutions
+                  for small businesses
+                </p>
+              </div>
+              <h4>Highlights</h4>
+              <ul class="highlights">
+                <li class="bullet">Frontend team lead</li>
+                <li class="bullet">C# Windows application developer</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-	
-	<section id="education" class="row">
-		<aside class="col-sm-3">
-			<h3>Education</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>IAU OF BANDAR-E ABBAS </span>
-					<span class="date">
-						2007-09-01 — 2010-04-01
-					</span>
-				</h4>
-				<div class="area">
-					COMPUTER SOFTWARE
-				</div>
-				<div class="studyType">
-					BACHELOR&#x27;S DEGREES
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
-	
-	
-	
-	<section id="skills" class="row">
-		<aside class="col-sm-3">
-			<h3>Skills</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Web Development</h4>
-				</div>
-				<ul class="keywords">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>SASS</li>
-					<li>LESS</li>
-					<li>Javascript</li>
-					<li>Angular</li>
-					<li>React</li>
-					<li>Webpack</li>
-					<li>NodeJs</li>
-					<li>User Interface Design</li>
-					<li>Docker</li>
-					<li>Model-View-Controller</li>
-					<li>ASP.NET MVC</li>
-					<li>Karma</li>
-					<li>Jasmin</li>
-					<li>Bootstrap</li>
-					<li>Foundation</li>
-					<li>Materialize</li>
-					<li>Primer</li>
-					<li>Semantic</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Backend Development</h4>
-				</div>
-				<ul class="keywords">
-					<li>C#</li>
-					<li>VB.NET</li>
-					<li>Python</li>
-					<li>EF</li>
-					<li>NHibernate</li>
-					<li>SQL Server</li>
-					<li>MySql</li>
-					<li>FireBase</li>
-					<li>SqlLite</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Source Control</h4>
-				</div>
-				<ul class="keywords">
-					<li>Git</li>
-					<li>TFS</li>
-					<li>GitLab</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Graphic</h4>
-				</div>
-				<ul class="keywords">
-					<li>Photoshop</li>
-					<li>Illustrator</li>
-					<li>UX Design</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
+      <section id="education" class="row">
+        <aside class="col-sm-3">
+          <h3>Education</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>IAU OF BANDAR-E ABBAS </span>
+                <span class="date"> 2007-09-01 — 2010-04-01 </span>
+              </h4>
+              <div class="area">COMPUTER SOFTWARE</div>
+              <div class="studyType">BACHELOR&#x27;S DEGREES</div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-	<section id="languages" class="row">
-		<aside class="col-sm-3">
-			<h3>Languages</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>English</strong>
-				</div>
-				<div class="fluency">
-					Professional working proficiency
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="language">
-					<strong>German</strong>
-				</div>
-				<div class="fluency">
-					Elementary proficiency
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
+      <section id="skills" class="row">
+        <aside class="col-sm-3">
+          <h3>Skills</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Web Development</h4>
+              </div>
+              <ul class="keywords">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>LESS</li>
+                <li>Javascript</li>
+                <li>Angular</li>
+                <li>React</li>
+                <li>Webpack</li>
+                <li>NodeJs</li>
+                <li>User Interface Design</li>
+                <li>Docker</li>
+                <li>Model-View-Controller</li>
+                <li>ASP.NET MVC</li>
+                <li>Karma</li>
+                <li>Jasmin</li>
+                <li>Bootstrap</li>
+                <li>Foundation</li>
+                <li>Materialize</li>
+                <li>Primer</li>
+                <li>Semantic</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Backend Development</h4>
+              </div>
+              <ul class="keywords">
+                <li>C#</li>
+                <li>VB.NET</li>
+                <li>Python</li>
+                <li>EF</li>
+                <li>NHibernate</li>
+                <li>SQL Server</li>
+                <li>MySql</li>
+                <li>FireBase</li>
+                <li>SqlLite</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Source Control</h4>
+              </div>
+              <ul class="keywords">
+                <li>Git</li>
+                <li>TFS</li>
+                <li>GitLab</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Graphic</h4>
+              </div>
+              <ul class="keywords">
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>UX Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-	<section id="interests" class="row">
-		<aside class="col-sm-3">
-			<h3>Interests</h3>
-		</aside>
-		<div class="col-sm-9">
-			<div class="row">
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Sport</h4>
-				</div>
-				<ul class="keywords">
-					<li>Hiking</li>
-					<li>Martial Arts</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-				<div class="name">
-					<h4>Wild Life</h4>
-				</div>
-				<ul class="keywords">
-					<li>Animal Care</li>
-				</ul>
-			</div>
-			</div>
-		</div>
-	</section>
-	
+      <section id="languages" class="row">
+        <aside class="col-sm-3">
+          <h3>Languages</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="language">
+                <strong>English</strong>
+              </div>
+              <div class="fluency">Professional working proficiency</div>
+            </div>
+            <div class="col-sm-6">
+              <div class="language">
+                <strong>German</strong>
+              </div>
+              <div class="fluency">Elementary proficiency</div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-	</div>
-	
-	</body>
+      <section id="interests" class="row">
+        <aside class="col-sm-3">
+          <h3>Interests</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Sport</h4>
+              </div>
+              <ul class="keywords">
+                <li>Hiking</li>
+                <li>Martial Arts</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Wild Life</h4>
+              </div>
+              <ul class="keywords">
+                <li>Animal Care</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
