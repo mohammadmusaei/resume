@@ -30,7 +30,7 @@
       }
       a:focus,
       a:hover {
-        color: #FF5722;
+        color: #ff5722;
         text-decoration: none;
       }
       p {
@@ -102,7 +102,6 @@
         transition: 0.3s;
         border-radius: 20px;
         border: 1px solid #aaa;
-        padding-top: 20px;
         padding-bottom: 20px;
       }
       #content h3 {
@@ -112,8 +111,13 @@
         font-weight: 700;
       }
       #content aside {
-        text-align: right;
+        text-align: left;
         padding-right: 30px;
+        margin-top: 20px;
+      }
+      .info-section {
+        padding-left: 30px;
+        margin-top: 10px !important;
       }
       #profiles .network {
         text-transform: capitalize;
@@ -212,6 +216,17 @@
           margin-left: 0;
           margin-bottom: 10px;
         }
+        #content aside {
+          padding-right: 0;
+        }
+        #content h3 {
+          text-align: center;
+          border-bottom: 1px solid #eee;
+          padding-bottom: 5px;
+        }
+        .info-section {
+          padding-left:0;
+        }
       }
     </style>
   </head>
@@ -231,10 +246,10 @@
     </header>
     <div id="content" class="container">
       <section id="contact" class="row">
-        <aside class="col-sm-3">
+        <aside class="col-sm-12">
           <h3>Contact</h3>
         </aside>
-        <div class="col-sm-9">
+        <div class="col-sm-12 info-section">
           <div class="row">
             <div class="col-sm-6">
               <strong>Email</strong>
@@ -246,7 +261,9 @@
             </div>
             <div class="col-sm-6">
               <strong>Phone</strong>
-              <div class="phone"><a href="tel:+98 (938) 087-8239">+98 (938) 087-8239</a></div>
+              <div class="phone">
+                <a href="tel:+98 (938) 087-8239">+98 (938) 087-8239</a>
+              </div>
             </div>
             <!-- <div class="col-sm-6">
               <strong>Website</strong>
@@ -258,10 +275,10 @@
         </div>
       </section>
       <section id="about" class="row">
-        <aside class="col-sm-3">
+        <aside class="col-sm-12">
           <h3>About</h3>
         </aside>
-        <div class="col-sm-9">
+        <div class="col-sm-12 info-section">
           <p>
             Experienced web developer with 8 years of working in web development
             projects. Highly skilled in new web technologies like Angular (all
@@ -272,10 +289,10 @@
         </div>
       </section>
       <section id="profiles" class="row">
-        <aside class="col-sm-3">
+        <aside class="col-sm-12">
           <h3>Profiles</h3>
         </aside>
-        <div class="col-sm-9">
+        <div class="col-sm-12 info-section">
           <div class="row">
             <div class="col-sm-6">
               <strong class="network"> GitHub </strong>
@@ -300,10 +317,10 @@
       </section>
 
       <section id="work" class="row">
-        <aside class="col-sm-3">
+        <aside class="col-sm-12">
           <h3>Work</h3>
         </aside>
-        <div class="col-sm-9">
+        <div class="col-sm-12 info-section">
           <div class="row">
             <div class="col-sm-12">
               <h4 class="strike-through">
@@ -384,10 +401,10 @@
       </section>
 
       <section id="education" class="row">
-        <aside class="col-sm-3">
+        <aside class="col-sm-12">
           <h3>Education</h3>
         </aside>
-        <div class="col-sm-9">
+        <div class="col-sm-12 info-section">
           <div class="row">
             <div class="col-sm-12">
               <h4 class="strike-through">
@@ -402,10 +419,10 @@
       </section>
 
       <section id="skills" class="row">
-        <aside class="col-sm-3">
+        <aside class="col-sm-12">
           <h3>Skills</h3>
         </aside>
-        <div class="col-sm-9">
+        <div class="col-sm-12 info-section">
           <div class="row">
             <div class="col-sm-6">
               <div class="name">
@@ -475,10 +492,10 @@
       </section>
 
       <section id="languages" class="row">
-        <aside class="col-sm-3">
+        <aside class="col-sm-12">
           <h3>Languages</h3>
         </aside>
-        <div class="col-sm-9">
+        <div class="col-sm-12 info-section">
           <div class="row">
             <div class="col-sm-6">
               <div class="language">
@@ -497,10 +514,10 @@
       </section>
 
       <section id="interests" class="row">
-        <aside class="col-sm-3">
+        <aside class="col-sm-12">
           <h3>Interests</h3>
         </aside>
-        <div class="col-sm-9">
+        <div class="col-sm-12 info-section">
           <div class="row">
             <div class="col-sm-6">
               <div class="name">
